@@ -1,0 +1,67 @@
+
+.nav-container {
+  position: sticky;
+  z-index: 3;
+  top: 0;
+}
+
+.navbar {
+  
+  height: 10vh;
+  background-color: #6F5D44;
+  
+}
+
+
+.navbar ul {
+  display: flex; 
+  list-style: none; 
+  padding: 0;
+  margin: 0; 
+  height: 100%; 
+  align-items: center; 
+}
+
+
+.navbar ul li {
+  
+  margin-right: 20px; 
+}
+
+
+
+
+
+.navbar ul .start-right {
+  margin-left: auto; 
+  
+}
+
+
+
+.navbar a {
+  text-decoration: none;
+  color: antiquewhite;
+  font-size: 16px; 
+  padding: 5px 10px;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: rgb(218, 224, 204);
+}
+
+
+.navbar-cart {
+  font-size: 25px; 
+  color: antiquewhite;
+  cursor: pointer;
+  margin: 0; 
+}
+
+
+
+.parrafo-baner {
+  color: aliceblue;
+  font-size: 20px;
+}

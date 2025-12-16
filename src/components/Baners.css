@@ -1,0 +1,53 @@
+.baner {
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+      ),
+      url("https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&q=60&w=500");
+  }
+  
+  .baner-container {
+    text-align: center;
+    padding: 15% 0;
+  }
+  
+  .titulo {
+    color: antiquewhite;
+    font-size: 40px;
+  }
+  
+  .parrafo-baner {
+    color: antiquewhite;
+    font-size: 20px;
+  }
+  @media (max-width: 768px) {
+    .titulo {
+      font-size: 30px;
+    }
+  
+    .parrafo-baner {
+      font-size: 16px;
+    }
+  
+    .baner-container {
+      padding: 10% 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .titulo {
+      font-size: 24px;
+    }
+  
+    .parrafo-baner {
+      font-size: 14px;
+    }
+  
+    .baner-container {
+      padding: 8% 0;
+    }
+  }
+  
